@@ -19,47 +19,53 @@
   <body>
     <!--Шапка сайту-->
     <header class="header">
-      <div class="container topline">
+      <div class="container container--topline">
         <nav class="nav-topline">
           <!--Символ-->
           <a href="" class="logo link" lang="en"
             ><span class="logo-accent">Web</span>Studio</a
           >
           <ul class="site-nav list">
-            <li class="item">
-              <a href="index.html" class="link current">Студия </a>
+            <li class="site-nav__item">
+              <a
+                href="index.html"
+                class="site-nav__link site-nav__link--current link"
+                >Студия
+              </a>
             </li>
 
-            <li class="item">
-              <a href="portfolio.html" class="link">Портфолио</a>
+            <li class="site-nav__item">
+              <a href="portfolio.html" class="site-nav__link link">Портфолио</a>
             </li>
-            <li class="item"><a href="" class="link">Контакты</a></li>
+            <li class="site-nav__item">
+              <a href="" class="site-nav__link link">Контакты</a>
+            </li>
           </ul>
         </nav>
         <ul class="contact list">
-          <li class="item">
+          <li class="contact__item">
             <a
-              class="link contact-link"
+              class="link contact__link"
               href="mailto:info@devstudio.com"
               target="_blank"
               rel="noopener nofollow noreferrer"
               aria-label="електронная почта"
             >
-              <svg class="icon post">
+              <svg class="contact__icon" width="16px" height="12px">
                 <use href="./images/symbol-defs.svg#icon-email"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="item">
+          <li class="contact__item">
             <a
-              class="link contact-link"
+              class="link contact__link"
               href="tel:+380961111111"
               target="_blank"
               rel="noopener nofollow noreferrer"
               aria-label="номер телефона"
             >
-              <svg class="icon tell">
+              <svg class="contact__icon" width="10px" height="16px">
                 <use href="./images/symbol-defs.svg#icon-phone"></use></svg
               >+38 096 111 11 11
             </a>
@@ -473,7 +479,7 @@
       <div class="container bottom">
         <!--Символ-->
         <div class="bottom-box">
-          <a href="" class="logo white link" lang="en"
+          <a href="" class="logo logo--white link" lang="en"
             ><span class="logo-accent">Web</span>Studio</a
           >
           <address>
