@@ -644,6 +644,9 @@ textarea {
   margin-right: 30px;
 }
 
+.work-thumb {
+  position: relative;
+}
 .work-card {
   position: absolute;
   bottom: 0;
