@@ -124,11 +124,6 @@ body {
   margin-bottom: 4px;
 }
 
-.text {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .comand {
   background-color: var(--secondary-bgcolor);
 }
@@ -583,7 +578,7 @@ textarea {
 
 /* наши особенности */
 
-.icon-impotent {
+.skill__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -594,7 +589,7 @@ textarea {
   height: 120px;
 }
 
-.list.skill > .title {
+.skill__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
@@ -602,35 +597,40 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.list.skill {
+.skill {
   display: flex;
 }
 
-.list.skill .item:not(:last-child) {
+.skill__item:not(:last-child) {
   margin-right: 30px;
 }
-.list.skill .item {
+.skill__item {
   width: 270px;
+}
+
+.skill__text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.skill__title {
+  text-transform: uppercase;
 }
 
 /*чем мы занимаемся */
 
-.list.skill .title {
-  text-transform: uppercase;
-}
-
-.list.activity {
+.works-list {
   display: flex;
 }
 
-.list.activity .item:not(:last-child) {
+.works-list__activity:not(:last-child) {
   margin-right: 30px;
 }
 
-.work-thumb {
+.activity__thumb {
   position: relative;
 }
-.work-card {
+.activity__work-card {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -651,33 +651,39 @@ textarea {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.work-text {
+.activity-text {
   margin: 0;
+}
+
+.activity__card {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* наша команда */
 
-.people {
+.comand__list {
   display: flex;
 }
 
-.people-title {
+.people-comand__label {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.people .comand-item:not(:last-child) {
+.people-comand:not(:last-child) {
   margin-right: 30px;
 }
 
-.people .title {
+.people-comand__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.profession {
+.people-comand__profession {
   color: var(--primary-text-color);
 
   font-size: 16px;
@@ -688,7 +694,7 @@ textarea {
   margin: 0px 0px 16px;
 }
 
-.comand-item {
+.people-comand {
   width: 270px;
 
   background: var(--primary-white-color);
@@ -696,6 +702,12 @@ textarea {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.people-comand__card {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .social-contact {
@@ -736,12 +748,12 @@ textarea {
   display: flex;
 }
 
-.client .item-client:not(:last-child) {
+.client__item:not(:last-child) {
   margin-right: 30px;
   padding-bottom: 0;
 }
 
-.link-client {
+.client__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -756,12 +768,13 @@ textarea {
     border-color 250ms var(--function-animation);
 }
 
-.link-client:hover,
-.link-client:focus {
+.client__link:hover,
+.client__link:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
-.client-icon {
+
+.client__icon {
   fill: currentColor;
 }
 
@@ -833,6 +846,7 @@ textarea {
 
   background-color: var(--primary-white-color);
 }
+
 .portfolio__item {
   width: 370px;
   height: 404px;
