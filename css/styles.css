@@ -55,7 +55,7 @@ body {
 
 .impotent,
 .comand,
-.portfolio,
+.portfolio-nav,
 .clients {
   padding-bottom: 94px;
   padding-top: 94px;
@@ -307,8 +307,8 @@ body {
   transition: background-color 250ms var(--function-animation);
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero__button:hover,
+.hero__button:focus {
   background-color: var(--secondary-accent-color);
 }
 
@@ -387,7 +387,7 @@ body {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.activity-text {
+.activity__text {
   margin: 0;
 }
 
@@ -527,7 +527,7 @@ body {
   margin-left: 8px;
 }
 
-.filters__filter {
+.filters__button {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
 
@@ -550,13 +550,20 @@ body {
     box-shadow 250ms var(--function-animation);
 }
 
-.filters__filter:hover,
-.filters__filter:focus {
+.filters__button:hover,
+.filters__button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-nav__list {
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .portfolio__title {
@@ -583,27 +590,20 @@ body {
   background-color: var(--primary-white-color);
 }
 
-.portfolio__item {
+.portfolio-nav__item {
   width: 370px;
   height: 404px;
 }
 
-.portfolio__workes {
-  list-style: none;
-
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.portfolio__item:nth-child(3n) {
+.portfolio-nav__item:nth-child(3n) {
   margin-right: 0;
 }
 
-.portfolio__item:nth-last-child(-n + 3) {
+.portfolio-nav__item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 
-.portfolio__item {
+.portfolio-nav__item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;

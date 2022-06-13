@@ -27,15 +27,15 @@
           >
           <ul class="site-nav list">
             <li class="site-nav__item">
-              <a
-                href="index.html"
-                class="site-nav__link link"
-                >Студия
-              </a>
+              <a href="index.html" class="site-nav__link link">Студия </a>
             </li>
 
             <li class="site-nav__item">
-              <a href="portfolio.html" class="site-nav__link site-nav__link--current link">Портфолио</a>
+              <a
+                href="portfolio.html"
+                class="site-nav__link site-nav__link--current link"
+                >Портфолио</a
+              >
             </li>
             <li class="site-nav__item">
               <a href="" class="site-nav__link link">Контакты</a>
@@ -72,276 +72,295 @@
           </li>
         </ul>
       </div>
+    </header>
     <!--Головна частина сайту-->
     <main>
-      <section class="portfolio">
+      <section class="portfolio-nav">
         <div class="container">
           <h1 class="visually-hidden">Портфолио</h1>
           <ul class="filters list">
             <li class="filters__item">
-              <button type="button" class="filters__filter">Все</button>
+              <button type="button" class="filters__button">Все</button>
             </li>
             <li class="filters__item">
-              <button type="button" class="filters__filter">Веб-сайты</button>
+              <button type="button" class="filters__button">Веб-сайты</button>
             </li>
             <li class="filters__item">
-              <button type="button" class="filters__filter">Приложения</button>
+              <button type="button" class="filters__button">Приложения</button>
             </li>
             <li class="filters__item">
-              <button type="button" class="filters__filter">Дизайн</button>
+              <button type="button" class="filters__button">Дизайн</button>
             </li>
             <li class="filters__item">
-              <button type="button" class="filters__filter">Маркетинг</button>
+              <button type="button" class="filters__button">Маркетинг</button>
             </li>
           </ul>
-          <ul class="list portfolio__workes">
-            <li class="portfolio__item">
-              <a href="" class="link portfolio__link">
-                <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__card"
-                    src="./images/tehno.jpg"
-                    alt="веб-сайт техно"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="portfolio__overlay">
-                    <p class="portfolio__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+          <ul class="list portfolio-nav__list">
+            <li class="portfolio-nav__item">
+              <article class="portfolio">
+                <a href="" class="link portfolio__link">
+                  <div class="portfolio__thumb">
+                    <img
+                      class="portfolio__card"
+                      src="./images/tehno.jpg"
+                      alt="веб-сайт техно"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__text">
+                        Ресурс предлагает комплексные предложения с разным
+                        уровнем функционала и сервисов. Все это позволит
+                        посетителю получить исчерпывающие сведения о компании
+                        или частном лице.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="portfolio__work">
-                  <h2 class="title portfolio__title">Технокряк</h2>
-                  <p class="portfolio__exampl">Веб-сайт</p>
-                </div>
-              </a>
+                  <div class="portfolio__work">
+                    <h2 class="title portfolio__title">Технокряк</h2>
+                    <p class="portfolio__exampl">Веб-сайт</p>
+                  </div>
+                </a>
+              </article>
             </li>
-            <li class="portfolio__item">
-              <a href="" class="link portfolio__link">
-                <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__card"
-                    src="./images/star.jpg"
-                    alt="дизайн-постер супер звезды"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="portfolio__overlay">
-                    <p class="portfolio__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+            <li class="portfolio-nav__item">
+              <article class="portfolio">
+                <a href="" class="link portfolio__link">
+                  <div class="portfolio__thumb">
+                    <img
+                      class="portfolio__card"
+                      src="./images/star.jpg"
+                      alt="дизайн-постер супер звезды"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__text">
+                        Ресурс предлагает комплексные предложения с разным
+                        уровнем функционала и сервисов. Все это позволит
+                        посетителю получить исчерпывающие сведения о компании
+                        или частном лице.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="portfolio__work">
-                  <h2 class="title portfolio__title">
-                    Постер<span lang="en"> New Orlean vs Golden Star</span>
-                  </h2>
-                  <p class="portfolio__exampl">Дизайн</p>
-                </div>
-              </a>
+                  <div class="portfolio__work">
+                    <h2 class="title portfolio__title">
+                      Постер<span lang="en"> New Orlean vs Golden Star</span>
+                    </h2>
+                    <p class="portfolio__exampl">Дизайн</p>
+                  </div>
+                </a>
+              </article>
             </li>
-            <li class="portfolio__item">
-              <a href="" class="link portfolio__link">
-                <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__card"
-                    src="./images/seafood.jpg"
-                    alt="ресторан-приложение морская еда"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="portfolio__overlay">
-                    <p class="portfolio__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+            <li class="portfolio-nav__item">
+              <article class="portfolio">
+                <a href="" class="link portfolio__link">
+                  <div class="portfolio__thumb">
+                    <img
+                      class="portfolio__card"
+                      src="./images/seafood.jpg"
+                      alt="ресторан-приложение морская еда"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__text">
+                        Ресурс предлагает комплексные предложения с разным
+                        уровнем функционала и сервисов. Все это позволит
+                        посетителю получить исчерпывающие сведения о компании
+                        или частном лице.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="portfolio__work">
-                  <h2 class="title portfolio__title">
-                    Ресторан <span lang="en">Seafood</span>
-                  </h2>
-                  <p class="portfolio__exampl">Приложение</p>
-                </div>
-              </a>
+                  <div class="portfolio__work">
+                    <h2 class="title portfolio__title">
+                      Ресторан <span lang="en">Seafood</span>
+                    </h2>
+                    <p class="portfolio__exampl">Приложение</p>
+                  </div>
+                </a>
+              </article>
             </li>
-            <li class="portfolio__item">
-              <a href="" class="link portfolio__link">
-                <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__card"
-                    src="./images/prime.jpg"
-                    alt="маркетинг-проект премиум"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="portfolio__overlay">
-                    <p class="portfolio__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+            <li class="portfolio-nav__item">
+              <article class="portfolio">
+                <a href="" class="link portfolio__link">
+                  <div class="portfolio__thumb">
+                    <img
+                      class="portfolio__card"
+                      src="./images/prime.jpg"
+                      alt="маркетинг-проект премиум"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__text">
+                        Ресурс предлагает комплексные предложения с разным
+                        уровнем функционала и сервисов. Все это позволит
+                        посетителю получить исчерпывающие сведения о компании
+                        или частном лице.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="portfolio__work">
-                  <h2 class="title portfolio__title">
-                    Проект <span lang="en">Prime</span>
-                  </h2>
-                  <p class="portfolio__exampl">Маркетинг</p>
-                </div>
-              </a>
+                  <div class="portfolio__work">
+                    <h2 class="title portfolio__title">
+                      Проект <span lang="en">Prime</span>
+                    </h2>
+                    <p class="portfolio__exampl">Маркетинг</p>
+                  </div>
+                </a>
+              </article>
             </li>
-            <li class="portfolio__item">
-              <a href="" class="link portfolio__link">
-                <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__card"
-                    src="./images/boxes.jpg"
-                    alt="приложение коробочки"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="portfolio__overlay">
-                    <p class="portfolio__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+            <li class="portfolio-nav__item">
+              <article class="portfolio">
+                <a href="" class="link portfolio__link">
+                  <div class="portfolio__thumb">
+                    <img
+                      class="portfolio__card"
+                      src="./images/boxes.jpg"
+                      alt="приложение коробочки"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__text">
+                        Ресурс предлагает комплексные предложения с разным
+                        уровнем функционала и сервисов. Все это позволит
+                        посетителю получить исчерпывающие сведения о компании
+                        или частном лице.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="portfolio__work">
-                  <h2 class="title portfolio__title">
-                    Проект <span lang="en">Boxes</span>
-                  </h2>
-                  <p class="portfolio__exampl">Приложение</p>
-                </div>
-              </a>
+                  <div class="portfolio__work">
+                    <h2 class="title portfolio__title">
+                      Проект <span lang="en">Boxes</span>
+                    </h2>
+                    <p class="portfolio__exampl">Приложение</p>
+                  </div>
+                </a>
+              </article>
             </li>
-            <li class="portfolio__item">
-              <a href="" class="link portfolio__link">
-                <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__card"
-                    src="./images/noboders.jpg"
-                    alt="веб-сайт без границ"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="portfolio__overlay">
-                    <p class="portfolio__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+            <li class="portfolio-nav__item">
+              <article class="portfolio">
+                <a href="" class="link portfolio__link">
+                  <div class="portfolio__thumb">
+                    <img
+                      class="portfolio__card"
+                      src="./images/noboders.jpg"
+                      alt="веб-сайт без границ"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__text">
+                        Ресурс предлагает комплексные предложения с разным
+                        уровнем функционала и сервисов. Все это позволит
+                        посетителю получить исчерпывающие сведения о компании
+                        или частном лице.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="portfolio__work">
-                  <h2 class="title portfolio__title" lang="en">
-                    Inspiration has no Borders
-                  </h2>
-                  <p class="portfolio__exampl">Веб-сайт</p>
-                </div>
-              </a>
+                  <div class="portfolio__work">
+                    <h2 class="title portfolio__title" lang="en">
+                      Inspiration has no Borders
+                    </h2>
+                    <p class="portfolio__exampl">Веб-сайт</p>
+                  </div>
+                </a>
+              </article>
             </li>
-            <li class="portfolio__item">
-              <a href="" class="link portfolio__link">
-                <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__card"
-                    src="./images/limited.jpg"
-                    alt="ограниченное издание"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="portfolio__overlay">
-                    <p class="portfolio__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+            <li class="portfolio-nav__item">
+              <article class="portfolio">
+                <a href="" class="link portfolio__link">
+                  <div class="portfolio__thumb">
+                    <img
+                      class="portfolio__card"
+                      src="./images/limited.jpg"
+                      alt="ограниченное издание"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__text">
+                        Ресурс предлагает комплексные предложения с разным
+                        уровнем функционала и сервисов. Все это позволит
+                        посетителю получить исчерпывающие сведения о компании
+                        или частном лице.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="portfolio__work">
-                  <h2 class="title portfolio__title">
-                    Издание<span lang="en">Limited Edition</span>
-                  </h2>
-                  <p class="portfolio__exampl">Дизайн</p>
-                </div>
-              </a>
+                  <div class="portfolio__work">
+                    <h2 class="title portfolio__title">
+                      Издание<span lang="en">Limited Edition</span>
+                    </h2>
+                    <p class="portfolio__exampl">Дизайн</p>
+                  </div>
+                </a>
+              </article>
             </li>
-            <li class="portfolio__item">
-              <a href="" class="link portfolio__link">
-                <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__card"
-                    src="./images/lab.jpg"
-                    alt="маркетинг-прект лаборатория"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="portfolio__overlay">
-                    <p class="portfolio__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+            <li class="portfolio-nav__item">
+              <article class="portfolio">
+                <a href="" class="link portfolio__link">
+                  <div class="portfolio__thumb">
+                    <img
+                      class="portfolio__card"
+                      src="./images/lab.jpg"
+                      alt="маркетинг-прект лаборатория"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__text">
+                        Ресурс предлагает комплексные предложения с разным
+                        уровнем функционала и сервисов. Все это позволит
+                        посетителю получить исчерпывающие сведения о компании
+                        или частном лице.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="portfolio__work">
-                  <h2 class="title portfolio__title">
-                    Проект<span lang="en"> LAB</span>
-                  </h2>
-                  <p class="portfolio__exampl">Маркетинг</p>
-                </div>
-              </a>
+                  <div class="portfolio__work">
+                    <h2 class="title portfolio__title">
+                      Проект<span lang="en"> LAB</span>
+                    </h2>
+                    <p class="portfolio__exampl">Маркетинг</p>
+                  </div>
+                </a>
+              </article>
             </li>
-            <li class="portfolio__item">
-              <a href="" class="link portfolio__link">
-                <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__card"
-                    src="./images/busines.jpg"
-                    alt="приложение-развитие бизнеса"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="portfolio__overlay">
-                    <p class="portfolio__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+            <li class="portfolio-nav__item">
+              <article class="portfolio">
+                <a href="" class="link portfolio__link">
+                  <div class="portfolio__thumb">
+                    <img
+                      class="portfolio__card"
+                      src="./images/busines.jpg"
+                      alt="приложение-развитие бизнеса"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__text">
+                        Ресурс предлагает комплексные предложения с разным
+                        уровнем функционала и сервисов. Все это позволит
+                        посетителю получить исчерпывающие сведения о компании
+                        или частном лице.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="portfolio__work">
-                  <h2 class="title portfolio__title" lang="en">
-                    Growing Business
-                  </h2>
-                  <p class="portfolio__exampl">Приложение</p>
-                </div>
-              </a>
+                  <div class="portfolio__work">
+                    <h2 class="title portfolio__title" lang="en">
+                      Growing Business
+                    </h2>
+                    <p class="portfolio__exampl">Приложение</p>
+                  </div>
+                </a>
+              </article>
             </li>
           </ul>
         </div>
       </section>
     </main>
 
-   <!--Футер-->
+    <!--Футер-->
     <footer class="footer">
       <div class="container footer__bottom">
         <!--Символ-->
