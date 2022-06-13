@@ -23,7 +23,7 @@
         <nav class="nav-topline">
           <!--Символ-->
           <a href="" class="logo link" lang="en"
-            ><span class="logo-accent">Web</span>Studio</a
+            ><span class="logo__accent">Web</span>Studio</a
           >
           <ul class="site-nav list">
             <li class="site-nav__item">
@@ -80,7 +80,7 @@
         <div class="container">
           <h1 class="hero__title">ЭФФЕКТИВНОЕ РЕШЕНИЕ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
           <!--Кнопка-->
-          <button type="button" class="button" data-modal-open>
+          <button type="button" class="hero__button" data-modal-open>
             Заказать услугу
           </button>
         </div>
@@ -216,57 +216,65 @@
                   <h3 class="title">Игорь Демьяненко</h3>
                   <p lang="en" class="profession">Product Designer</p>
                   <ul class="list social-contact">
-                    <li class="item-contact">
+                    <li class="social-contact__item">
                       <a
                         href=""
-                        class="link link-contact"
+                        class="link social-contact__link"
                         aria-label="Компания"
-                      >
-                        <svg class="icon-contact" width="20" height="20">
+                        ><svg
+                          class="social-contact__icon"
+                          width="20"
+                          height="20"
+                        >
                           <use
                             href="./images/symbol-defs.svg#icon-instagram"
-                          ></use>
-                        </svg>
-                      </a>
+                          ></use></svg
+                      ></a>
                     </li>
-                    <li class="item-contact">
+                    <li class="social-contact__item">
                       <a
                         href=""
-                        class="link link-contact"
+                        class="link social-contact__link"
                         aria-label="Компания"
-                      >
-                        <svg class="icon-contact" width="20" height="16.25">
+                        ><svg
+                          class="social-contact__icon"
+                          width="20"
+                          height="16.25"
+                        >
                           <use
                             href="./images/symbol-defs.svg#icon-twitter"
-                          ></use>
-                        </svg>
-                      </a>
+                          ></use></svg
+                      ></a>
                     </li>
-                    <li class="item-contact">
+                    <li class="social-contact__item">
                       <a
                         href=""
-                        class="link link-contact"
+                        class="link social-contact__link"
                         aria-label="Компания"
-                      >
-                        <svg class="icon-contact" width="10" height="20">
+                        ><svg
+                          class="social-contact__icon"
+                          width="10"
+                          height="20"
+                        >
                           <use
                             href="./images/symbol-defs.svg#icon-facebook"
-                          ></use>
-                        </svg>
-                      </a>
+                          ></use></svg
+                      ></a>
                     </li>
-                    <li class="item-contact">
+                    <li class="social-contact__item">
                       <a
                         href=""
-                        class="link link-contact"
+                        class="link social-contact__link"
                         aria-label="Компания"
-                      >
-                        <svg class="icon-contact" width="20" height="20">
+                        ><svg
+                          class="social-contact__icon"
+                          width="20"
+                          height="20"
+                        >
                           <use
                             href="./images/symbol-defs.svg#icon-linkedin"
-                          ></use>
-                        </svg>
-                      </a>
+                          ></use></svg
+                      ></a>
                     </li>
                   </ul>
                 </div>
@@ -285,33 +293,61 @@
                   <h3 class="title">Ольга Репина</h3>
                   <p lang="en" class="profession">Frontend Developer</p>
                   <ul class="list social-contact">
-                    <li class="item-contact">
-                      <a href="" class="link link-contact" aria-label="Компания"
-                        ><svg class="icon-contact" width="20" height="20">
+                    <li class="social-contact__item">
+                      <a
+                        href=""
+                        class="link social-contact__link"
+                        aria-label="Компания"
+                        ><svg
+                          class="social-contact__icon"
+                          width="20"
+                          height="20"
+                        >
                           <use
                             href="./images/symbol-defs.svg#icon-instagram"
                           ></use></svg
                       ></a>
                     </li>
-                    <li class="item-contact">
-                      <a href="" class="link link-contact" aria-label="Компания"
-                        ><svg class="icon-contact" width="20" height="16.25">
+                    <li class="social-contact__item">
+                      <a
+                        href=""
+                        class="link social-contact__link"
+                        aria-label="Компания"
+                        ><svg
+                          class="social-contact__icon"
+                          width="20"
+                          height="16.25"
+                        >
                           <use
                             href="./images/symbol-defs.svg#icon-twitter"
                           ></use></svg
                       ></a>
                     </li>
-                    <li class="item-contact">
-                      <a href="" class="link link-contact" aria-label="Компания"
-                        ><svg class="icon-contact" width="10" height="20">
+                    <li class="social-contact__item">
+                      <a
+                        href=""
+                        class="link social-contact__link"
+                        aria-label="Компания"
+                        ><svg
+                          class="social-contact__icon"
+                          width="10"
+                          height="20"
+                        >
                           <use
                             href="./images/symbol-defs.svg#icon-facebook"
                           ></use></svg
                       ></a>
                     </li>
-                    <li class="item-contact">
-                      <a href="" class="link link-contact" aria-label="Компания"
-                        ><svg class="icon-contact" width="20" height="20">
+                    <li class="social-contact__item">
+                      <a
+                        href=""
+                        class="link social-contact__link"
+                        aria-label="Компания"
+                        ><svg
+                          class="social-contact__icon"
+                          width="20"
+                          height="20"
+                        >
                           <use
                             href="./images/symbol-defs.svg#icon-linkedin"
                           ></use></svg
@@ -335,33 +371,61 @@
 
                   <p lang="en" class="profession">Marketing</p>
                   <ul class="list social-contact">
-                    <li class="item-contact">
-                      <a href="" class="link link-contact" aria-label="Компания"
-                        ><svg class="icon-contact" width="20" height="20">
+                    <li class="social-contact__item">
+                      <a
+                        href=""
+                        class="link social-contact__link"
+                        aria-label="Компания"
+                        ><svg
+                          class="social-contact__icon"
+                          width="20"
+                          height="20"
+                        >
                           <use
                             href="./images/symbol-defs.svg#icon-instagram"
                           ></use></svg
                       ></a>
                     </li>
-                    <li class="item-contact">
-                      <a href="" class="link link-contact" aria-label="Компания"
-                        ><svg class="icon-contact" width="20" height="16.25">
+                    <li class="social-contact__item">
+                      <a
+                        href=""
+                        class="link social-contact__link"
+                        aria-label="Компания"
+                        ><svg
+                          class="social-contact__icon"
+                          width="20"
+                          height="16.25"
+                        >
                           <use
                             href="./images/symbol-defs.svg#icon-twitter"
                           ></use></svg
                       ></a>
                     </li>
-                    <li class="item-contact">
-                      <a href="" class="link link-contact" aria-label="Компания"
-                        ><svg class="icon-contact" width="10" height="20">
+                    <li class="social-contact__item">
+                      <a
+                        href=""
+                        class="link social-contact__link"
+                        aria-label="Компания"
+                        ><svg
+                          class="social-contact__icon"
+                          width="10"
+                          height="20"
+                        >
                           <use
                             href="./images/symbol-defs.svg#icon-facebook"
                           ></use></svg
                       ></a>
                     </li>
-                    <li class="item-contact">
-                      <a href="" class="link link-contact" aria-label="Компания"
-                        ><svg class="icon-contact" width="20" height="20">
+                    <li class="social-contact__item">
+                      <a
+                        href=""
+                        class="link social-contact__link"
+                        aria-label="Компания"
+                        ><svg
+                          class="social-contact__icon"
+                          width="20"
+                          height="20"
+                        >
                           <use
                             href="./images/symbol-defs.svg#icon-linkedin"
                           ></use></svg
@@ -385,33 +449,61 @@
 
                   <p lang="en" class="profession">UI Designer</p>
                   <ul class="list social-contact">
-                    <li class="item-contact">
-                      <a href="" class="link link-contact" aria-label="Компания"
-                        ><svg class="icon-contact" width="20" height="20">
+                    <li class="social-contact__item">
+                      <a
+                        href=""
+                        class="link social-contact__link"
+                        aria-label="Компания"
+                        ><svg
+                          class="social-contact__icon"
+                          width="20"
+                          height="20"
+                        >
                           <use
                             href="./images/symbol-defs.svg#icon-instagram"
                           ></use></svg
                       ></a>
                     </li>
-                    <li class="item-contact">
-                      <a href="" class="link link-contact" aria-label="Компания"
-                        ><svg class="icon-contact" width="20" height="16.25">
+                    <li class="social-contact__item">
+                      <a
+                        href=""
+                        class="link social-contact__link"
+                        aria-label="Компания"
+                        ><svg
+                          class="social-contact__icon"
+                          width="20"
+                          height="16.25"
+                        >
                           <use
                             href="./images/symbol-defs.svg#icon-twitter"
                           ></use></svg
                       ></a>
                     </li>
-                    <li class="item-contact">
-                      <a href="" class="link link-contact" aria-label="Компания"
-                        ><svg class="icon-contact" width="10" height="20">
+                    <li class="social-contact__item">
+                      <a
+                        href=""
+                        class="link social-contact__link"
+                        aria-label="Компания"
+                        ><svg
+                          class="social-contact__icon"
+                          width="10"
+                          height="20"
+                        >
                           <use
                             href="./images/symbol-defs.svg#icon-facebook"
                           ></use></svg
                       ></a>
                     </li>
-                    <li class="item-contact">
-                      <a href="" class="link link-contact" aria-label="Компания"
-                        ><svg class="icon-contact" width="20" height="20">
+                    <li class="social-contact__item">
+                      <a
+                        href=""
+                        class="link social-contact__link"
+                        aria-label="Компания"
+                        ><svg
+                          class="social-contact__icon"
+                          width="20"
+                          height="20"
+                        >
                           <use
                             href="./images/symbol-defs.svg#icon-linkedin"
                           ></use></svg
@@ -476,17 +568,17 @@
     </main>
     <!--Футер-->
     <footer class="footer">
-      <div class="container bottom">
+      <div class="container footer__bottom">
         <!--Символ-->
         <div class="bottom-box">
           <a href="" class="logo logo--white bottom-box__logo link" lang="en"
-            ><span class="logo-accent">Web</span>Studio</a
+            ><span class="logo__accent">Web</span>Studio</a
           >
           <address>
             <ul class="list adress">
-              <li class="item">
+              <li class="adress__item">
                 <a
-                  class="link post"
+                  class="link adress__link adress__link--post"
                   href=""
                   target="_blank"
                   rel="noopener nofollow noreferrer"
@@ -494,9 +586,9 @@
                   г. Киев, пр-т Леси Украинки, 26
                 </a>
               </li>
-              <li class="item">
+              <li class="adress__item">
                 <a
-                  class="link"
+                  class="link adress__link"
                   href="mailto:info@example.com"
                   lang="en"
                   target="_blank"
@@ -504,9 +596,9 @@
                   >info@example.com</a
                 >
               </li>
-              <li class="item">
+              <li class="adress__item">
                 <a
-                  class="link"
+                  class="link adress__link"
                   href="tel:+380991111111"
                   target="_blank"
                   rel="noopener nofollow noreferrer"
@@ -517,63 +609,63 @@
           </address>
         </div>
         <div class="contact-box">
-          <p class="text-footer">ПРИСОЕДИНЯЙТЕСЬ</p>
+          <p class="contact-box__text">ПРИСОЕДИНЯЙТЕСЬ</p>
           <ul class="list social-contact">
-            <li class="item-contact">
+            <li class="social-contact__item">
               <a
                 href=""
-                class="link link-contact footer-contact"
+                class="link social-contact__link social-contact__link--footer"
                 aria-label="Компания"
-                ><svg class="icon-contact" width="20" height="20">
+                ><svg class="social-contact__icon" width="20" height="20">
                   <use
                     href="./images/symbol-defs.svg#icon-instagram"
                   ></use></svg
               ></a>
             </li>
-            <li class="item-contact">
+            <li class="social-contact__item">
               <a
                 href=""
-                class="link link-contact footer-contact"
+                class="link social-contact__link social-contact__link--footer"
                 aria-label="Компания"
-                ><svg class="icon-contact" width="20" height="16.25">
+                ><svg class="social-contact__icon" width="20" height="16.25">
                   <use href="./images/symbol-defs.svg#icon-twitter"></use></svg
               ></a>
             </li>
-            <li class="item-contact">
+            <li class="social-contact__item">
               <a
                 href=""
-                class="link link-contact footer-contact"
+                class="link social-contact__link social-contact__link--footer"
                 aria-label="Компания"
-                ><svg class="icon-contact" width="10" height="20">
+                ><svg class="social-contact__icon" width="10" height="20">
                   <use href="./images/symbol-defs.svg#icon-facebook"></use></svg
               ></a>
             </li>
-            <li class="item-contact">
+            <li class="social-contact__item">
               <a
                 href=""
-                class="link link-contact footer-contact"
+                class="link social-contact__link social-contact__link--footer"
                 aria-label="Компания"
-                ><svg class="icon-contact" width="20" height="20">
+                ><svg class="social-contact__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-linkedin"></use></svg
               ></a>
             </li>
           </ul>
         </div>
         <div class="mail-box">
-          <p class="text-footer">Подпишитесь на рассылку</p>
+          <p class="mail-box__text">Подпишитесь на рассылку</p>
           <ul class="footer-form">
-            <li class="footer-list">
+            <li class="footer-form__list">
               <input
                 type="email"
                 name="mail-footer"
-                class="mail-footer"
+                class="footer-form__mail"
                 placeholder="E-mail"
               />
             </li>
-            <li class="footer-list">
+            <li class="footer-form__list">
               <button class="footer-button" type="submit">
                 <span>Подписаться</span>
-                <svg class="icon-footer" width="24" height="24">
+                <svg class="footer-button__icon" width="24" height="24">
                   <use href="./images/symbol-defs.svg#icon-fly"></use>
                 </svg>
               </button>
@@ -582,6 +674,9 @@
         </div>
       </div>
     </footer>
+
+    <!-- backdrop -->
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="close-button" data-modal-close>
