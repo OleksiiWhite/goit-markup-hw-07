@@ -38,3 +38,10 @@
   letter-spacing: 0.03em;
   margin: 0 0 20px;
 }
+
+%position-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
