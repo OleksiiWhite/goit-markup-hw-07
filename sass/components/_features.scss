@@ -1,0 +1,38 @@
+.skill {
+  display: flex;
+
+&__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  height: 120px;
+}
+
+&__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  text-align: left;
+  letter-spacing: 0.03em;
+}
+
+&__item:not(:last-child) {
+  margin-right: 30px;
+}
+&__item {
+  width: 270px;
+}
+
+&__text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+&__title {
+  text-transform: uppercase;
+}
+}

@@ -1,0 +1,73 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+
+  user-select: none;
+
+  background-color: $primary-white-color;
+  color: $primary-text-color;
+}
+
+.impotent,
+.comand,
+.portfolio-nav,
+.clients {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.works {
+  padding-bottom: 94px;
+}
+
+.comand {
+  background-color: $secondary-bgcolor;
+}
+
+.section-title {
+  color: $title-text-color;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.title {
+  color: $title-text-color;
+
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  &--topline {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
