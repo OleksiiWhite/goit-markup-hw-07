@@ -36,13 +36,13 @@
   }
 }
 
-.site-nav--current {
+.site-nav__link--current {
   position: relative;
 
   color: $accent-color;
 
   &::after {
-    content: "";
+    content: " ";
     display: inline-blok;
     position: absolute;
     bottom: 0;

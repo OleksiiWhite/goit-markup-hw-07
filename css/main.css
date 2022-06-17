@@ -156,12 +156,12 @@
   color: #2196f3;
 }
 
-.site-nav--current {
+.site-nav__link--current {
   position: relative;
   color: #2196f3;
 }
-.site-nav--current::after {
-  content: "";
+.site-nav__link--current::after {
+  content: " ";
   display: inline-blok;
   position: absolute;
   bottom: 0;
