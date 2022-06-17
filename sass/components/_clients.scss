@@ -1,14 +1,15 @@
 .client {
   display: flex;
-@extend %link;
+  @extend %list;
 
-&__item:not(:last-child) {
-  margin-right: 30px;
-  padding-bottom: 0;
+  &__item:not(:last-child) {
+    margin-right: 30px;
+    padding-bottom: 0;
+  }
+  &__icon {
+    fill: currentColor;
+  }
 }
-&__icon {
-  fill: currentColor;
-}}
 
 .client__link {
   @include centeredFlex();

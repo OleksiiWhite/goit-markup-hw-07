@@ -15,21 +15,17 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50px;
 
-  transition: color 250ms $function-animation,
-    border 250ms $function-animation;
+  transition: color 250ms $function-animation, border 250ms $function-animation;
 
-&:hover,
-&:focus {
-  border: 1px solid $secondary-accent-color;
-  color: $accent-color;
-}
+  &:hover,
+  &:focus {
+    border: 1px solid $secondary-accent-color;
+    color: $accent-color;
+  }
 
-&__icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  &__icon {
+    @extend %position-absolute;
 
-  fill: currentColor;
-}
+    fill: currentColor;
+  }
 }

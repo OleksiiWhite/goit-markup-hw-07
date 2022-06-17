@@ -1,9 +1,9 @@
-.social-contact__link, .client__link, .client, .people-comand__link, .contact__link, .logo, .site-nav__link {
+.social-contact__link, .client__link, .people-comand__link, .contact__link, .logo, .site-nav__link {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
 }
 
-.footer-form, .adress, .social-contact, .comand__list, .works-list, .skill, .contact, .site-nav {
+.footer-form, .adress, .social-contact, .client, .comand__list, .works-list, .skill, .contact, .site-nav {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -37,6 +37,14 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   margin: 0 0 20px;
+}
+
+.close-button__icon, .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .body {
@@ -307,6 +315,7 @@
   line-height: 1.17;
   text-align: left;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .skill__item:not(:last-child) {
   margin-right: 30px;
@@ -317,9 +326,6 @@
 .skill__text {
   margin-top: 0;
   margin-bottom: 0;
-}
-.skill__title {
-  text-transform: uppercase;
 }
 
 .works-list {
@@ -676,11 +682,6 @@
 }
 
 .modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   width: 528px;
   height: 581px;
   padding: 40px 39px 40px 41px;
@@ -723,11 +724,6 @@
   color: #2196f3;
 }
 .close-button__icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   fill: currentColor;
 }
 
